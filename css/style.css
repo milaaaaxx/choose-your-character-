@@ -72,3 +72,6 @@ main > p {
     background: #7ab3e6;
     color: #ffffff;
 }
+.character {
+    transition: transform 180 ease, background-color 180ms ease;
+}
