@@ -75,3 +75,47 @@ main > p {
 .character {
     transition: transform 180 ease, background-color 180ms ease;
 }
+.character.is-selected{
+    transform: scale(1.08);
+    background-color: #4d91ce;
+    color: white;
+}
+.character-page{
+    display:flex;
+    gap: 30px;
+    max-width:1100px;
+    margin:60px auto;
+    padding:30px;
+}
+.character-model,
+.charcter-info{
+    flex: 1;
+    min-height: 500px;
+    padding: 30px;
+    border-radius: 24px;
+    background-color: white;
+}
+.character-model{
+    background-color: #d9eaff;
+}
+.character-info{
+    display: flex;
+}
+.character-model{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+@media (max-width: 700px) {
+    .character-page {
+        flex-direction: column;
+    }
+    .character-model,
+    .character-info{
+        min-height: 300px;
+    }
+}
+#character-name,
+#character-description {
+    color:pink;
+}
