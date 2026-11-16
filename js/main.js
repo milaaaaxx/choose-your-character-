@@ -15,13 +15,10 @@ characterButtons.forEach((button) => {
             otherButton.classList.remove("is-selected");
         });
 
-        const params = new URLSearchParams({ name: name});
-        window.location.href = 'character?${params.ToString()}';
+        const params = new URLSearchParams({ name: button.dataset.name, description: button.dataset.description});
+        window.location.href = `character.html?${params.toString()}`;
         
         button.classList.add("is-selected");
     });
+    
 });
-
-const params = new URLSearchURL(window.location.search);
-
-window.location.href = 'character?${params.ToString()}';

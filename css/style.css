@@ -119,3 +119,15 @@ main > p {
 #character-description {
     color:pink;
 }
+.character-model{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#character-name{
+    margin: 0 0 12px;
+}
+#character-description{
+    margin: 0;
+}
