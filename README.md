@@ -1,14 +1,16 @@
 # Choose Your Character
 
-Choose Your Character is a small character-selection website. Pick a character to open their own page, where their name and description are shown. I’m also learning Blender to create a 3D character for the project.
+Choose Your Character is a character-selection website where you can pick a character and open their profile. I built the site while learning HTML, CSS, and JavaScript, and created Mochi, the first 3D character, in Blender.
 
 ## Current features
 
 - Choose from five characters: Mochi, Ash, Mila, Milo, and Nonna.
 - Open a character details page with the selected character’s name and description.
-- View the front and side sketches I’m using as Blender references.
+- See character facts, including personality, favourite food, and special skill.
+- View and rotate Mochi's interactive 3D model on the character page.
+- Use front and side sketches as references while modelling in Blender.
 
-The Blender character is still in progress and has not been added to the website yet.
+Mochi is the first 3D model in the project. The other characters do not have 3D models yet, so there is room to expand the site later.
 
 ## Built with
 
@@ -16,6 +18,7 @@ The Blender character is still in progress and has not been added to the website
 - CSS
 - JavaScript
 - Blender
+- Google `<model-viewer>` for displaying the GLB model in the browser
 
 ## Run locally
 
